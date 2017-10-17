@@ -153,7 +153,7 @@ int main()
 
     } while (c != 'q');
 
-    free(pMyCsvClass);
+    delete pMyCsvClass;
 
     return 0;
 }
